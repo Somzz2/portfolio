@@ -1,0 +1,102 @@
+.container {
+    width: 1200px;
+    padding: 70px 0 0 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu {
+    width: 50%;
+}
+.card {
+    width: 300px;
+    height: 120px;
+    background-color: #9370DB;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.descriptionAbout, .descriptionInfo, .descriptionTech {
+    width: 50%;
+}
+.descriptionAbout h2, .descriptionInfo h2, .descriptionTech h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #9370DB;
+}
+
+.descriptionAbout div, .descriptionInfo div, .descriptionTech div {
+    font-size: 18px;
+}
+
+.descriptionInfo .infoArea {
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.infoArea div {
+    flex-wrap: wrap;
+    padding: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.descriptionTech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.techOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-top: 40px;
+}
+
+.techOne span {
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+    .menu {
+        margin-left: 50px;
+    }
+    .descriptionAbout {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .descriptionAbout, .descriptionInfo, .descriptionTech {
+        width: 90%;
+    }
+    .descriptionAbout {
+        margin-left: 30px;
+    }
+}
