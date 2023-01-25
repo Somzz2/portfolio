@@ -73,4 +73,8 @@
     .container {
         width: 100%;
     }
+
+    .cardGrid {
+        width: 100%;
+    }
 }

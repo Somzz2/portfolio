@@ -14,7 +14,7 @@ type Props = {
 
 const Projects = ({id}: Props) => {
     return (
-        <Fade direction='right' triggerOnce>
+        <Fade direction='left' triggerOnce>
         <div className={styles.container} id={id}>
             <h1>PORTFÓLIO</h1>
             <div className={styles.cardGrid}>
