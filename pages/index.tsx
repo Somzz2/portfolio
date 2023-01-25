@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Head>
         <title>Matheus Dev.</title>
-        <meta name="description" content="Matheus Dev." />
+        <meta name="description" content="Matheus Oliveira - Desenvolvedor Web Front-End." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logomatheus.jpg" />
       </Head>
